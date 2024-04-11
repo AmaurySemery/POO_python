@@ -40,3 +40,9 @@ bird = Bird("mouette")
 
 # On le retrouve avec la méthode find_bird.
 print(Bird.find_bird((1, 2)))
+
+"""
+Les attributs de classe sont souvent utilisés pour créer des données ou des actions globales à la classe, qui ne dépendent pas d’une instance. 
+Les instances peuvent cependant y accéder. 
+Modifier un attribut de classe dans une instance le modifiera dans toutes les autres !
+"""

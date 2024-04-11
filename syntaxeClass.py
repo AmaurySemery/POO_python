@@ -60,3 +60,7 @@ rectangle = Rectangle(4, 6, color="blue")
 
 # Il est aussi possible de nommer les paramètres obligatoires
 rectangle = Rectangle(length=2, width=3, color="white")
+
+cake = Cake("chocolate")
+print(cake.flavor)
+cake.cut_in_part()

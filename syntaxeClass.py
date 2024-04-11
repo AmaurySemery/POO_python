@@ -35,6 +35,7 @@ class Rectangle:
         self.length = length
         self.width = width
         self.color = color
+        print("Pour ce rectangle, la taille est " + str(length) + ", la largeur est " + str(width) + " et la couleur est " + str(color))
 
 class Cake:
     def __init__(self, flavor):
@@ -44,3 +45,6 @@ class Cake:
         print("Le gâteau est coupé en 4 parts !")
 
 # De cette manière, grâce au constructeur __init__, nous déclarons des variables dynamiques
+
+# Instancions maintenant un objet :
+rectangle = Rectangle(5, 3)

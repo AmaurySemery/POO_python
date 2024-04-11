@@ -57,3 +57,6 @@ Ceci inclut les positions des paramètres – dans notre constructeur ci-dessus,
 # On peut également utiliser le paramètre optionnel
 rectangle = Rectangle(2, 7, color="pink")
 rectangle = Rectangle(4, 6, color="blue")
+
+# Il est aussi possible de nommer les paramètres obligatoires
+rectangle = Rectangle(length=2, width=3, color="white")

@@ -20,3 +20,5 @@ class Bird:
 bird = Bird()  # obligation d'instancier un oiseau pour utiliser ses attributs
 bird.wings
 bird.fly()
+
+# Les attributs d'instance permettent d'utiliser la programmation orientée objet à son plein potentiel

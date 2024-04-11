@@ -46,3 +46,5 @@ Les attributs de classe sont souvent utilisés pour créer des données ou des a
 Les instances peuvent cependant y accéder. 
 Modifier un attribut de classe dans une instance le modifiera dans toutes les autres !
 """
+
+# Les attributs de classe peuvent être très utiles, mais sont censés être plus rares

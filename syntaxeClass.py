@@ -48,3 +48,8 @@ class Cake:
 
 # Instancions maintenant un objet :
 rectangle = Rectangle(5, 3)
+
+"""
+Il est important que les paramètres que vous fournissez correspondent aux paramètres du constructeur. 
+Ceci inclut les positions des paramètres – dans notre constructeur ci-dessus, la « longueur » (length) est le premier paramètre donné, et la « largeur » (width) est le deuxième paramètre donné.
+"""

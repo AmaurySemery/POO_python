@@ -17,9 +17,30 @@ Votre code fonctionnerait aussi bien.
 C’est cependant une convention très forte en Python, donc prenez-la au mot. 🙏
 """
 
-class Rectangle:
-    width = 3
-    height = 2
+# class Rectangle:
+#     width = 3
+#     height = 2
 
-    def calculate_area(self):
-        return self.width * self.height
+#     def calculate_area(self):
+#         return self.width * self.height
+
+"""
+Il existe une catégorie spéciale de méthode nommée constructeur. 
+Chaque classe en a un, et il est utilisé pour créer des objets à partir de cette classe. 
+En Python, notre constructeur est une méthode magique nommée  __init__, que l’on peut utiliser un peu comme ceci :
+"""
+
+class Rectangle:
+    def __init__(self, length, width, color="red"):
+        self.length = length
+        self.width = width
+        self.color = color
+
+class Cake:
+    def __init__(self, flavor):
+        self.flavor = flavor
+
+    def cut_in_part(self):
+        print("Le gâteau est coupé en 4 parts !")
+
+# De cette manière, grâce au constructeur __init__, nous déclarons des variables dynamiques

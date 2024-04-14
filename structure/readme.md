@@ -58,3 +58,9 @@ Nous avons parlé d’héritage pendant ce cours, lorsqu’une classe « is-a »
 
 # Les interfaces
 Dans quelle mesure est-ce que ce code va interagir avec d’autres systèmes et d’autres parties de code ? À quoi ressembleront les interfaces – les méthodes, fonctions et autres fonctionnalités qui relient votre programme aux autres ?
+
+## Les exceptions
+
+Une exception est un message du programme qui signale que quelque chose s’est mal passé.
+
+Les exceptions sont déclenchées – ou levées, ou lancées – par un programme. Les exceptions que vous avez pu voir précédemment – comme  NameError,  ZeroDivisionError, ou  IndexError  – sont toutes des exceptions intégrées qui sont lancées par les éléments internes de Python lui-même.

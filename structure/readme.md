@@ -45,3 +45,16 @@ En résumé
 Un fichier Python, contenant du code Python, est appelé un module.
 Un paquet est un répertoire de modules Python contenant un fichier__init__.py.
 Nous pouvons utiliser des déclarations import pour inclure des classes et des fonctions d’autres modules et paquets Python.
+
+## Comment décomposer un problème de programmation
+
+# Les fonctionnalités
+Que doit faire votre programme ou fonctionnalité ? De quelles fonctionnalités additionnelles pourrait-on avoir besoin à l’avenir ? Comment vous assurer que votre code soit extensible, de façon à ce que ces modifications soient possibles ?
+
+# Les objets
+Quels sont les objets qui existent dans l’espace du programme ? Quelles sont les responsabilités de chacun de ces objets ? À quoi servent-ils ? Quelles sont les relations entre ces objets ?
+
+Nous avons parlé d’héritage pendant ce cours, lorsqu’une classe « is-a » (« est-une ») version plus spécialisée d’une autre classe. Il existe également des relations de composition, que nous avons évoquées sans les nommer, qui désignent des relations « has-a » (« a-un »). Par exemple, une voiture a un volant – le volant pourrait être stocké comme variable à l’intérieur de la voiture. C’est une façon d’imbriquer les objets entre eux, pour éviter d’avoir un seul gros objet qui ferait trop de choses différentes.
+
+# Les interfaces
+Dans quelle mesure est-ce que ce code va interagir avec d’autres systèmes et d’autres parties de code ? À quoi ressembleront les interfaces – les méthodes, fonctions et autres fonctionnalités qui relient votre programme aux autres ?

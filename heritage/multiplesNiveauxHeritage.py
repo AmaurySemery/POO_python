@@ -1,3 +1,9 @@
+"""
+Une classe parent peut elle-même avoir un parent.
+Lorsque nous avons de multiples niveaux d’héritage, nous avons une hiérarchie d’héritage.
+Une classe peut aussi hériter de multiples classes parents dans le cadre de ce que l’on nomme l’héritage multiple.
+"""
+
 """Définit les classes propres à notre forum. ;)"""
 
 from abc import ABC

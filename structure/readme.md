@@ -64,3 +64,22 @@ Dans quelle mesure est-ce que ce code va interagir avec d’autres systèmes et 
 Une exception est un message du programme qui signale que quelque chose s’est mal passé.
 
 Les exceptions sont déclenchées – ou levées, ou lancées – par un programme. Les exceptions que vous avez pu voir précédemment – comme  NameError,  ZeroDivisionError, ou  IndexError  – sont toutes des exceptions intégrées qui sont lancées par les éléments internes de Python lui-même.
+
+Toutes les exceptions Python sont des objets, ce qui mérite d’être souligné.Exception est la classe de base des exceptions Python, dont tout hérite. Cela signifie que nous pouvons créer nos propres exceptions – ce que nous couvrirons après une note rapide sur la…
+
+# Gestion des exceptions
+
+Lorsqu’une exception est déclenchée dans notre code – et qu’elle n’est pas gérée – habituellement, notre programme s’arrête.
+
+Nous pouvons gérer une exception en utilisant untry-except (souvent appelé une instruction try-catch dans d’autres langages).
+
+def increase_percent(initial_value, after_value):
+    try:
+        return (after_value / initial_value) * 100
+    except ZeroDivisionError:
+        return 0
+    except Exception as error:
+        print("Uh oh, unexpected error occurred!")
+        raise error
+
+Lorsqu’une exception est levée, elle se propage dans le programme. Python ne fait plus les choses dans l’ordre, mais lance plutôt continuellement l’exception en remontant la pile – c’est-à-dire la pile de fonctions/méthodes qui ont appelé d’autres fonctions/méthodes. L’exception va continuer à remonter jusqu’à ce qu’elle soit gérée ou qu’elle n’ait plus nulle part où aller. Dans ce dernier cas, le programme plante.

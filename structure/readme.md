@@ -40,3 +40,8 @@ Le fichier principal de votre code (celui que vous utilisez pour lancer le progr
 Cette condition permet donc d'exécuter du code seulement si le fichier courant est le point d’entrée de l’application. Le code ne s'exécutera donc pas si ce fichier a été importé depuis un autre module.
 
 Il est particulièrement important de noter que vous avez très peu de contrôle sur l’ordre du code dans les différents paquets importés : ne vous reposez dessus que pour l’import de paquets et la configuration, et rien d’autre !
+
+En résumé
+Un fichier Python, contenant du code Python, est appelé un module.
+Un paquet est un répertoire de modules Python contenant un fichier__init__.py.
+Nous pouvons utiliser des déclarations import pour inclure des classes et des fonctions d’autres modules et paquets Python.

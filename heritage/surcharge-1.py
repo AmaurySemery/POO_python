@@ -35,3 +35,10 @@ class Coffee(Drink):
 """
 L’approche avec  super()  vous permet de réutiliser le code plutôt que de le copier, et assure le regroupement des fonctionnalités de façon logique – soit deux des plus grands avantages de la programmation orientée objet !
 """
+
+"""
+Une classe enfant peut fournir sa propre implémentation d’un élément hérité de sa classe parent.
+L’implémentation de la classe enfant est prioritaire sur celle du parent – elle surcharge l’implémentation de la classe parent.
+On peut utiliser la méthode super pour accéder à des méthodes dans la classe parent que nous avons surchargée.
+Une classe abstraite est une classe qui ne peut pas être instanciée – à la place, il faut en hériter.
+"""

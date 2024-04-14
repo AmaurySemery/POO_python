@@ -1,14 +1,14 @@
-us pouvons prendre en compte certains principes en écrivant notre code :
+Nous pouvons prendre en compte certains principes en écrivant notre code :
 
-Principe n°1 : la découvrabilité
+# Principe n°1 : la découvrabilité
 La découvrabilité désigne la facilité ou la difficulté à trouver l’emplacement de fonctionnalités précises. La découvrabilité peut aussi faire référence à la difficulté de compréhension du code lui-même : est-ce que l’on comprend clairement ce que fait le code, simplement en le regardant ? Ou faut-il aller chercher ailleurs pour comprendre ?
 
 Nous pouvons garantir une bonne découvrabilité en découpant notre code de façon logique, avec des fichiers et des dossiers qui assurent que les sections de code ayant des fonctionnalités similaires soit regroupées.
 
-Principe n°2 : la simplicité
+# Principe n°2 : la simplicité
 On peut également garantir que chaque section de code ait aussi peu de responsabilités que possible – de préférence une seule ! Les fonctions et méthodes qui ne font qu’une seule chose sont plus faciles à comprendre et à tester. 
 
-Principe n°3 : le style
+# Principe n°3 : le style
 Un code bien structuré a un style cohérent. Pour un projet professionnel ou open source, vous aurez un guide de style. Suivez-le pour garantir que votre code et celui de vos collègues et collaborateurs soient similaires.
 
 Les outils les plus utiles pour structurer du code sont simplement les fichiers et les dossiers. Le découpage de nos programmes en fichiers et dossiers (bien nommés) aide à la découvrabilité.
